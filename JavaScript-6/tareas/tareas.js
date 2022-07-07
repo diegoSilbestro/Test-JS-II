@@ -27,6 +27,7 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
+  // nada nadad
   let sum = 0;
   numeros.forEach(element => { sum += element });
   cb(sum);
