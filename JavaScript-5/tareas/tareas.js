@@ -46,6 +46,9 @@ function agregarStringInvertida() {
       reverseArray.push(arrayStr[arrayStr.length - i]);
     }
     return reverseArray.join('');
+    
+    //return this.split("").reverse().toString().replaceAll(",", "")
+
   }
 
 
